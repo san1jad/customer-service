@@ -1,0 +1,11 @@
+user:
+  service-name: "http://USER-SERVICE"
+  address:
+    request-path: "/addresses"
+    request-to-update: "/addresses/{id}"
+  phones:
+    request-path: "/phones"
+    request-to-update: "/phones/{id}"
+  users:
+    request-path: "/users"
+    request-to-update: "/users/{userId}"
